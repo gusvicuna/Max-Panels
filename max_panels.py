@@ -10,6 +10,3 @@ def max_paneles(a, b, x, y) -> int:
     else:
         panels_count_rotated += ((x % b) // a) * (y // b)
     return max(panels_count_normal, panels_count_rotated)
-
-
-print(max_paneles(a=1, b=2, x=3, y=5)) # 7
