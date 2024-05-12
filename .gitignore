@@ -1,0 +1,8 @@
+venv/
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Caché de pytest
+.pytest_cache/
